@@ -1,28 +1,40 @@
-name: MANUEL ULLOA
 favicon: null
-layout_spectrum: 0.5389786011073738
-typography_spectrum: 0.7944770890753716
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: MANUEL ULLOA
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.3929866631515324
-  lightness: 0.05102340970188379
-  saturation: 0.2177132461220026
-  rhythmicContrast: 0.27296138228848577
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4014337
+  brandStrength: 0.469534
+  lightness: 0.7204301
+  brandColors:
+    - '#1E1F1F'
+    - '#436EAB'
+    - '#9ABDCF'
+    - '#BDA26F'
+    - '#FFF1B5'
+  rhythmicContrast: 0.2729614
+typography_spectrum: 0.4928315
+layout_spectrum: 0.8046595
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
